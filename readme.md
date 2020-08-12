@@ -13,12 +13,12 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
 ## Build Docker Image
-To build docker image change directory to cloned repo and execute following command
+To build docker image change directory to cloned repo and execute following command:
 ```
 docker build -t hello_world_flask_app .
 ```
 ## Run Container
-After creating docker image using given dockerfile, to run container use following command
+After creating docker image using given dockerfile, to run container use following command:
 ```
 docker run -d -p 80:5000 --name hello_world hello_world_flask_app
 ```
