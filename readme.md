@@ -17,12 +17,16 @@ To build docker image change directory to cloned repo and execute following comm
 ```
 docker build -t hello_world_flask_app .
 ```
+you can also get pre-built image using following command:
+```
+docker pull amirhne/hello_world_flask_app
+```
 ## Run Container
 After creating docker image using given dockerfile, to run container use following command:
 ```
 docker run -d -p 80:5000 --name hello_world hello_world_flask_app
 ```
-##Make Sure Container is Running
+## Make Sure Container is Running
 to make sure that your container is running use following command:
 ```
 docker ps
