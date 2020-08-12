@@ -27,7 +27,7 @@ to make sure that your container is running use following command:
 ```
 docker ps
 ```
-output should like this
+output should like this:
 ```
 CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS                    PORTS                  NAMES
 6cdf53855fcf        hello_world_flask_app   "/bin/sh -c 'python3…"   5 seconds ago       Up 3 seconds              0.0.0.0:80->5000/tcp   hello_world
